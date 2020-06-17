@@ -31,12 +31,19 @@ module.exports = {
 	projectName: "om2020", // Usually your repo name.
 	themeConfig: {
 		defaultDarkMode: true,
+		announcementBar: {
+			id: "support_us", // Any value that will identify this message.
+			content:
+				'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+			backgroundColor: "#fafbfc", // Defaults to `#fff`.
+			textColor: "#091E42", // Defaults to `#000`.
+		},
 		navbar: {
 			title: "OM2020",
-			logo: {
-				alt: "My Site Logo",
-				src: "img/logo.svg",
-			},
+			// logo: {
+			// 	alt: "My Site Logo",
+			// 	src: "img/logo.svg",
+			// },
 			links: [
 				{
 					to: "docs/",
@@ -101,7 +108,7 @@ module.exports = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Olimpiade Mahasiswa UNS.`,
 		},
 	},
 	presets: [

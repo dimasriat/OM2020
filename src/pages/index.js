@@ -23,7 +23,8 @@ const features = [
 		description: (
 			<>
 				Docusaurus lets you focus on your docs, and we&apos;ll do the
-				chores. Go ahead and move your docs into the <code>docs</code> directory.
+				chores. Go ahead and move your docs into the <code>docs</code>{" "}
+				directory.
 			</>
 		),
 	},
@@ -71,7 +72,9 @@ function Home() {
 				className={classnames("hero hero--primary", styles.heroBanner)}
 			>
 				<div className="container">
-					<h1 className="hero__title">{siteConfig.title}</h1>
+					<h1 className="hero__title" style={{ fontSize: "4rem" }}>
+						{siteConfig.title}
+					</h1>
 					<p className="hero__subtitle">{siteConfig.tagline}</p>
 					<div className={styles.buttons}>
 						<Link
