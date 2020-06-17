@@ -30,6 +30,7 @@ module.exports = {
 	organizationName: "dimasriat", // Usually your GitHub org/user name.
 	projectName: "om2020", // Usually your repo name.
 	themeConfig: {
+		defaultDarkMode: true,
 		navbar: {
 			title: "OM2020",
 			logo: {

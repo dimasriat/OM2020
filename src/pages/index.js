@@ -8,8 +8,8 @@ import styles from "./styles.module.css";
 
 const features = [
 	{
-		title: <>Easy to Use</>,
-		imageUrl: "img/undraw_docusaurus_mountain.svg",
+		title: <>Olahraga</>,
+		imageUrl: "img/undraw_olahraga.svg",
 		description: (
 			<>
 				Docusaurus was designed from the ground up to be easily
@@ -18,19 +18,18 @@ const features = [
 		),
 	},
 	{
-		title: <>Focus on What Matters</>,
-		imageUrl: "img/undraw_docusaurus_tree.svg",
+		title: <>Seni Budaya</>,
+		imageUrl: "img/undraw_seni.svg",
 		description: (
 			<>
 				Docusaurus lets you focus on your docs, and we&apos;ll do the
-				chores. Go ahead and move your docs into the <code>docs</code>{" "}
-				directory.
+				chores. Go ahead and move your docs into the <code>docs</code> directory.
 			</>
 		),
 	},
 	{
-		title: <>Powered by React</>,
-		imageUrl: "img/undraw_docusaurus_react.svg",
+		title: <>Penalaran dan Keilmiahan</>,
+		imageUrl: "img/undraw_penalaran.svg",
 		description: (
 			<>
 				Extend or customize your website layout by reusing React.
