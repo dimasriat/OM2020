@@ -37,19 +37,19 @@ module.exports = {
 				src: "img/logo.svg",
 			},
 			links: [
-				// {
-				// 	to: "docs/",
-				// 	activeBasePath: "docs",
-				// 	label: "Docs",
-				// 	position: "left",
-				// },
-				// { to: "blog", label: "Blog", position: "left" },
-				// {
-				// 	href: "https://github.com/facebook/docusaurus",
-				// 	label: "GitHub",
-				// 	position: "right",
-				// },
-				...cabang
+				{
+					to: "docs/",
+					activeBasePath: "docs",
+					label: "Docs",
+					position: "left",
+				},
+				{ to: "blog", label: "Blog", position: "left" },
+				{
+					href: "https://github.com/facebook/docusaurus",
+					label: "GitHub",
+					position: "right",
+				},
+				// ...cabang
 			],
 		},
 		footer: {
